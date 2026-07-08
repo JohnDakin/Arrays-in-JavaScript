@@ -31,3 +31,15 @@ console.log(slicedNames);
 const spliceOperation = slicedNames.toSpliced(2, 2, "Ongalo", "Junior", "Mark");
 
 console.log(spliceOperation);
+
+const stringNum = "12345623";
+
+const newArray = Array.from(stringNum);
+console.log(newArray);
+
+//looping through the array using a for loop instead of forEach loop
+
+for(let i = 0; i < newArray.length; i++){
+  console.log(newArray[i]);
+}
+

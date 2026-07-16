@@ -83,7 +83,7 @@ let total = nums3.reduce((total, currentValue)=> total + currentValue, 10);
 console.log(total);
 
 //finding the max value in an array using reduce()
-//anything bigger than -infinity is going to be the new value for a
+//anything bigger than -Infinity is going to be the new value for a
 // let maxVal = nums3.reduce((a, b) => Math.max(a, b), -Infinity);
 let maxVal = nums3.reduce((a, b) => a > b ? a : b);
 

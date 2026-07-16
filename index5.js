@@ -111,10 +111,10 @@ const numberReduce = [1, 2, 3, 4];
 
 const alreadyReduced = numberReduce.reduce((num, accumulator) => accumulator+=num);
 console.log(alreadyReduced);
-//Array.reduceRight() - works the same but starts reducing from the rightg of the array
+//Array.reduceRight() - works the same but starts reducing from the right of the array
 
 //Array.flat() - used to flat an array
-//you can choose the level of flat you want by default is 1 if you want to flat the whole array you can use the infinity which is passed to the flat mathod Array.flat(infinity)
+//you can choose the level of flat you want by default is 1 if you want to flat the whole array you can use the Infinity which is passed to the flat mathod Array.flat(Infinity)
 
 //used especially when you have a three dimensional array and you want to get a two or one dimensional array
 
